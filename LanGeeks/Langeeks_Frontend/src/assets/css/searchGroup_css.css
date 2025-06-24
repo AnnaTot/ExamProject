@@ -1,0 +1,98 @@
+.pageContainer {
+  background-color: #b0c0cc;
+  opacity: 94%;
+}
+.container {
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  background-color: rgb(226, 226, 226);
+}
+
+.card-body {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: #fff;
+  margin-top: 50px;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+img {
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  width: 7%;
+}
+
+.logedinSign {
+  background-color: green;
+  width: 20px;
+  height: 30px;
+  border-radius: 30px;
+  border: solid green 1px;
+}
+
+form {
+  margin-top: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  opacity: 97%;
+  width: 100%;
+  height: 500px;
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.cardsContainer {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+button {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  max-width: 105px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

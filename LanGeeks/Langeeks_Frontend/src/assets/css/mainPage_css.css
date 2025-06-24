@@ -1,0 +1,60 @@
+h1 {
+  color: white;
+}
+
+.text-box {
+  padding: 80px;
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 80px;
+  font-style: oblique;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 19px;
+  background: transparent;
+  position: relative;
+}
+
+button:hover {
+  border: 1px solid rgb(121, 174, 140);
+  background: rgb(121, 174, 140);
+}
+
+img {
+  width: 25%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+#info {
+  margin-top: 300px;
+  width: 100%;
+  text-align: center;
+  background-color: #b0c0cc;
+  font-size: 18px;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 50px;
+}
+
+.card {
+  border-radius: 30px;
+  width: 90%;
+  margin-bottom: 50px;
+  padding: 5px;
+}

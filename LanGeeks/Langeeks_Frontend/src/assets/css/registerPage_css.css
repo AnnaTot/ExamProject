@@ -1,0 +1,54 @@
+.container {
+  margin: auto;
+  padding: 40px;
+}
+
+.notValid {
+  color: red;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+input {
+  height: 37px;
+  width: 94%;
+  font-size: 19px;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 19px;
+}
+
+select {
+  height: 37px;
+  width: 94%;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+  border-radius: 20px;
+}
+
+form {
+  font-size: 18px;
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 50%;
+  height: 37px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

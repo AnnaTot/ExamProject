@@ -1,0 +1,70 @@
+.pageContainer {
+  background-color: #b0c0cc;
+  padding: 40px;
+  opacity: 94%;
+  min-height: 100vh;
+}
+
+button {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  max-width: 105px;
+  margin-right: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  height: 37px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form {
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  opacity: 97%;
+  max-width: 300px;
+}
+
+h2 {
+  margin: 25px;
+  text-align: center;
+}
+
+.card {
+  list-style: none;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  opacity: 97%;
+  padding: 10px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+li {
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: fit-content;
+}
